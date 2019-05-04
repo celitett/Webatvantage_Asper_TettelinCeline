@@ -1,0 +1,763 @@
+body {
+  background: #323a45;
+  max-height: 900px;
+}
+
+.logo{
+  position: absolute;
+  margin-top: -700px;
+  margin-left: 625px;
+}
+
+
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  top: -690px;
+  left: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #323a45;
+  min-width: 200px;
+  padding:10px 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  left: -20px;
+  top: 25px;
+}
+
+#dropdown2{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  top: -690px;
+  left: 900px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+
+
+.wrapper {
+  margin-top: -170px;
+  margin-left: 0px;
+  width: 109px;
+  height: 109px;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 3px;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: transform 375ms, width 275ms 100ms, height 375ms;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.wrapper2 {
+  margin-top: 50px;
+  margin-left: -540px;
+  width: 109px;
+  height: 109px;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 3px;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: transform 375ms, width 275ms 100ms, height 375ms;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.wrapper3 {
+  margin-top: 200px;
+  margin-left: -540px;
+  width: 109px;
+  height: 109px;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 3px;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: transform 375ms, width 275ms 100ms, height 375ms;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.wrapper4 {
+  margin-top: 200px;
+  margin-left: -400px;
+  width: 109px;
+  height: 109px;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 3px;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: transform 375ms, width 275ms 100ms, height 375ms;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.wrapper5 {
+  margin-top: 50px;
+  margin-left: -400px;
+  width: 109px;
+  height: 109px;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 3px;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: transform 375ms, width 275ms 100ms, height 375ms;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.wrapper6 {
+  margin-top: 50px;
+  margin-left: -190px;
+  width: 109px;
+  height: 109px;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 3px;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: transform 375ms, width 275ms 100ms, height 375ms;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.wrapper7 {
+  margin-top: 200px;
+  margin-left: -190px;
+  width: 109px;
+  height: 109px;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 3px;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: transform 375ms, width 275ms 100ms, height 375ms;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.wrapper8 {
+  margin-top: 200px;
+  margin-left: -50px;
+  width: 109px;
+  height: 109px;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 3px;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: transform 375ms, width 275ms 100ms, height 375ms;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.wrapper9 {
+  margin-top: 50px;
+  margin-left: -50px;
+  width: 109px;
+  height: 109px;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 3px;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: transform 375ms, width 275ms 100ms, height 375ms;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.wrapper10 {
+  margin-top: 50px;
+  margin-left: 160px;
+  width: 109px;
+  height: 109px;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 3px;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: transform 375ms, width 275ms 100ms, height 375ms;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.wrapper11 {
+  margin-top: 200px;
+  margin-left: 160px;
+  width: 109px;
+  height: 109px;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 3px;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: transform 375ms, width 275ms 100ms, height 375ms;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.wrapper12 {
+  margin-top: 200px;
+  margin-left: 300px;
+  width: 109px;
+  height: 109px;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 3px;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: transform 375ms, width 275ms 100ms, height 375ms;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.wrapper13 {
+  margin-top: 50px;
+  margin-left: 300px;
+  width: 109px;
+  height: 109px;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 3px;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: transform 375ms, width 275ms 100ms, height 375ms;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.wrapper14 {
+  margin-top: 50px;
+  margin-left: 500px;
+  width: 109px;
+  height: 109px;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 3px;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: transform 375ms, width 275ms 100ms, height 375ms;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper.open {
+  transform: translate(-50%, -17%);
+  width: 330px;
+  height: 330px;
+  transition: transform 375ms, width 375ms, height 275ms 100ms;  
+}
+.wrapper2.open {
+  transform: translate(-50%, -17%);
+  width: 330px;
+  height: 330px;
+  transition: transform 375ms, width 375ms, height 275ms 100ms;  
+}
+.wrapper3.open {
+  transform: translate(-50%, -17%);
+  width: 330px;
+  height: 330px;
+  transition: transform 375ms, width 375ms, height 275ms 100ms;  
+}
+.wrapper4.open {
+  transform: translate(-50%, -17%);
+  width: 330px;
+  height: 330px;
+  transition: transform 375ms, width 375ms, height 275ms 100ms;  
+}
+.wrapper5.open {
+  transform: translate(-50%, -17%);
+  width: 330px;
+  height: 330px;
+  transition: transform 375ms, width 375ms, height 275ms 100ms;  
+}
+.wrapper6.open {
+  transform: translate(-50%, -17%);
+  width: 330px;
+  height: 330px;
+  transition: transform 375ms, width 375ms, height 275ms 100ms;  
+}
+.wrapper7.open {
+  transform: translate(-50%, -17%);
+  width: 330px;
+  height: 330px;
+  transition: transform 375ms, width 375ms, height 275ms 100ms;  
+}
+.wrapper8.open {
+  transform: translate(-50%, -17%);
+  width: 330px;
+  height: 330px;
+  transition: transform 375ms, width 375ms, height 275ms 100ms;  
+}
+.wrapper9.open {
+  transform: translate(-50%, -17%);
+  width: 330px;
+  height: 330px;
+  transition: transform 375ms, width 375ms, height 275ms 100ms;  
+}
+.wrapper10.open {
+  transform: translate(-50%, -17%);
+  width: 330px;
+  height: 330px;
+  transition: transform 375ms, width 375ms, height 275ms 100ms;  
+}
+.wrapper11.open {
+  transform: translate(-50%, -17%);
+  width: 330px;
+  height: 330px;
+  transition: transform 375ms, width 375ms, height 275ms 100ms;  
+}
+.wrapper12.open {
+  transform: translate(-50%, -17%);
+  width: 330px;
+  height: 330px;
+  transition: transform 375ms, width 375ms, height 275ms 100ms;  
+}
+.wrapper13.open {
+  transform: translate(-50%, -17%);
+  width: 330px;
+  height: 330px;
+  transition: transform 375ms, width 375ms, height 275ms 100ms;  
+}
+.wrapper14.open {
+  transform: translate(-50%, -17%);
+  width: 330px;
+  height: 330px;
+  transition: transform 375ms, width 375ms, height 275ms 100ms;  
+}
+
+div.content {
+  position: absolute;
+  margin: auto;
+  left: -9999px;
+  right: -9999px;
+  transform-origin: top;
+  width: 330px;
+  transform: scale(0.62);
+  height: 330px;
+  border-radius: 3px;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 375ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+div.content2 {
+  position: absolute;
+  margin: auto;
+  left: -9999px;
+  right: -9999px;
+  transform-origin: top;
+  width: 330px;
+  transform: scale(0.62);
+  height: 330px;
+  border-radius: 3px;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 375ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+div.content3 {
+  position: absolute;
+  margin: auto;
+  left: -9999px;
+  right: -9999px;
+  transform-origin: top;
+  width: 330px;
+  transform: scale(0.62);
+  height: 330px;
+  border-radius: 3px;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 375ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+div.content4 {
+  position: absolute;
+  margin: auto;
+  left: -9999px;
+  right: -9999px;
+  transform-origin: top;
+  width: 330px;
+  transform: scale(0.62);
+  height: 330px;
+  border-radius: 3px;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 375ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+div.content5 {
+  position: absolute;
+  margin: auto;
+  left: -9999px;
+  right: -9999px;
+  transform-origin: top;
+  width: 330px;
+  transform: scale(0.62);
+  height: 330px;
+  border-radius: 3px;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 375ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+div.content6 {
+  position: absolute;
+  margin: auto;
+  left: -9999px;
+  right: -9999px;
+  transform-origin: top;
+  width: 330px;
+  transform: scale(0.62);
+  height: 330px;
+  border-radius: 3px;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 375ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+div.content7 {
+  position: absolute;
+  margin: auto;
+  left: -9999px;
+  right: -9999px;
+  transform-origin: top;
+  width: 330px;
+  transform: scale(0.62);
+  height: 330px;
+  border-radius: 3px;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 375ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+div.content8 {
+  position: absolute;
+  margin: auto;
+  left: -9999px;
+  right: -9999px;
+  transform-origin: top;
+  width: 330px;
+  transform: scale(0.62);
+  height: 330px;
+  border-radius: 3px;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 375ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+div.content9 {
+  position: absolute;
+  margin: auto;
+  left: -9999px;
+  right: -9999px;
+  transform-origin: top;
+  width: 330px;
+  transform: scale(0.62);
+  height: 330px;
+  border-radius: 3px;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 375ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+div.content10 {
+  position: absolute;
+  margin: auto;
+  left: -9999px;
+  right: -9999px;
+  transform-origin: top;
+  width: 330px;
+  transform: scale(0.62);
+  height: 330px;
+  border-radius: 3px;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 375ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+div.content11 {
+  position: absolute;
+  margin: auto;
+  left: -9999px;
+  right: -9999px;
+  transform-origin: top;
+  width: 330px;
+  transform: scale(0.62);
+  height: 330px;
+  border-radius: 3px;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 375ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+div.content12 {
+  position: absolute;
+  margin: auto;
+  left: -9999px;
+  right: -9999px;
+  transform-origin: top;
+  width: 330px;
+  transform: scale(0.62);
+  height: 330px;
+  border-radius: 3px;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 375ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+div.content13 {
+  position: absolute;
+  margin: auto;
+  left: -9999px;
+  right: -9999px;
+  transform-origin: top;
+  width: 330px;
+  transform: scale(0.62);
+  height: 330px;
+  border-radius: 3px;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 375ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+div.content14 {
+  position: absolute;
+  margin: auto;
+  left: -9999px;
+  right: -9999px;
+  transform-origin: top;
+  width: 330px;
+  transform: scale(0.62);
+  height: 330px;
+  border-radius: 3px;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 375ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.content.open {
+  transform: scale(1);
+}
+.content2.open {
+  transform: scale(1);
+}
+.content3.open {
+  transform: scale(1);
+}
+.content4.open {
+  transform: scale(1);
+}
+.content5.open {
+  transform: scale(1);
+}
+.content6.open {
+  transform: scale(1);
+}
+.content7.open {
+  transform: scale(1);
+}
+.content8.open {
+  transform: scale(1);
+}
+.content9.open {
+  transform: scale(1);
+}
+.content10.open {
+  transform: scale(1);
+}
+.content11.open {
+  transform: scale(1);
+}
+.content12.open {
+  transform: scale(1);
+}
+.content13.open {
+  transform: scale(1);
+}
+.content14.open {
+  transform: scale(1);
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+  background-image: url("https://www.webatvantage.be/Repository/Cached/Team/lieven2-piece-360.png");
+  background-size: cover;
+  background-position: center;
+}
+.img2 {
+  height: 200px;
+  width: 200px;
+  background-image: url("https://www.webatvantage.be/Repository/Cached/Team/wouter2-piece-360.png");
+  background-size: cover;
+  background-position: center;
+}
+.img3 {
+  height: 200px;
+  width: 200px;
+  background-image: url("https://www.webatvantage.be/Repository/Cached/Team/sam1-piece-360.png");
+  background-size: cover;
+  background-position: center;
+}
+.img4 {
+  height: 200px;
+  width: 200px;
+  background-image: url("https://www.webatvantage.be/Repository/Cached/Team/ophelie2-piece-360.png");
+  background-size: cover;
+  background-position: center;
+}
+.img5 {
+  height: 200px;
+  width: 250px;
+  background-image: url("https://www.webatvantage.be/Repository/Cached/Team/jarno2-piece-360.png");
+  background-size: cover;
+  background-position: center;
+}
+.img6 {
+  height: 200px;
+  width: 200px;
+  background-image: url("https://www.webatvantage.be/Repository/Cached/Team/vincent2-piece-360.png");
+  background-size: cover;
+  background-position: center;
+}
+.img7 {
+  height: 200px;
+  width: 200px;
+  background-image: url("https://www.webatvantage.be/Repository/Cached/Team/simon2-piece-360.png");
+  background-size: cover;
+  background-position: center;
+}
+.img8 {
+  height: 200px;
+  width: 200px;
+  background-image: url("https://www.webatvantage.be/Repository/Cached/Team/wim2-piece-360.png");
+  background-size: cover;
+  background-position: center;
+}
+.img9 {
+  height: 200px;
+  width: 250px;
+  background-size: cover;
+  background-position: center;
+}
+.img10 {
+  height: 200px;
+  width: 200px;
+  background-image: url("https://www.webatvantage.be/Repository/Cached/Team/davy-2016-New-2-piece-360.png");
+  background-size: cover;
+  background-position: center;
+}
+.img11 {
+  height: 200px;
+  width: 200px;
+  background-image: url("https://www.webatvantage.be/Repository/Cached/Team/robert2-piece-360.png");
+  background-size: cover;
+  background-position: center;
+}
+.img12 {
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+}
+.img13 {
+  height: 200px;
+  width: 250px;
+  background-image: url("https://www.webatvantage.be/Repository/Cached/Team/jeffrey_2016_1-piece-360.png");
+  background-size: cover;
+  background-position: center;
+}
+.img14 {
+  height: 200px;
+  width: 250px;
+  background-image: url("https://www.webatvantage.be/Repository/Cached/Team/melissa2-piece-360.png");
+  background-size: cover;
+  background-position: center;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  margin-top: 10px;
+  line-height: 15px;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  margin-top: -480px;
+  margin-left: 653px;
+  color: white;
+}
+
+.h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  margin-top: 170px;
+  margin-left: 180px;
+  color: white;
+}
+
+.h22{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  margin-top: -18px;
+  margin-left: 510px;
+  color: white;
+}
+
+.h222{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  margin-top: -18px;
+  margin-left: 905px;
+  color: white;
+}
+
+.h2222{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  margin-top: -18px;
+  margin-left: 1160px;
+  color: white;
+  line-height: 25px;
+}
+
+.text {
+  padding-left: 25px;
+  padding-top: 5px
+}
+.text .line {
+  height: 13px;
+  margin-top: 20px;
+}
+.title {
+  width: 80%;
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 90%;
+}

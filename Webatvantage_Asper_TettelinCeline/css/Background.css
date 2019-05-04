@@ -1,0 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+  background-color: #323a45;
+  min-height: 900px;
+  color: #323a45;
+  background-size: cover;
+  background-position: center;
+  position: static;
+}
