@@ -1,26 +1,42 @@
 body {
   background: #323a45;
-  max-height: 900px;
+  height: 100%;
 }
 
 .logo{
+  margin-top: -300px;
+  margin-left: -100px;
   position: absolute;
-  margin-top: -700px;
-  margin-left: 625px;
+  left: 50%;
+  top: 50%;
 }
-
 
 
 .dropdown{
   position: relative;
-  display: inline-block;
   cursor: pointer;
   color: #ffffff;
-  top: -690px;
-  left: 200px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -290px;
+  margin-left: -500px;
 }
+.dropdown2{
+  position: relative;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -290px;
+  margin-left: 320px;
+}
+
 .dropdown-content{
   display: none;
   position: absolute;
@@ -29,21 +45,23 @@ body {
   padding:10px 10px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   left: -20px;
-  top: 25px;
+  top: 15px;
 }
-
-#dropdown2{
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  top: -690px;
-  left: 900px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
+.dropdown-content2{
+  display: none;
+  position: absolute;
+  background-color: #323a45;
+  min-width: 200px;
+  padding:10px 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  left: -20px;
+  top: 15px;
 }
 
 .dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropdown2:hover .dropdown-content2{
   display: block;
 }
 
@@ -706,42 +724,57 @@ p{
 h1{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5em;
-  margin-top: -480px;
-  margin-left: 653px;
   color: white;
+  margin-top: -100px;
+  margin-left: -65px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
 }
 
 .h2{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2em;
-  margin-top: 170px;
-  margin-left: 180px;
+  margin-top: 115px;
+  margin-left: -545px;
   color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
 }
 
 .h22{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2em;
-  margin-top: -18px;
-  margin-left: 510px;
+  margin-top: 115px;
+  margin-left: -207px;
   color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
 }
 
 .h222{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2em;
-  margin-top: -18px;
-  margin-left: 905px;
+  margin-top: 115px;
+  margin-left: 188px;
   color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
 }
 
 .h2222{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2em;
-  margin-top: -18px;
-  margin-left: 1160px;
+  margin-top: 110px;
+  margin-left: 440px;
   color: white;
   line-height: 25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
 }
 
 .text {
